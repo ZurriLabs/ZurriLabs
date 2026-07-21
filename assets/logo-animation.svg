@@ -1,0 +1,136 @@
+<svg 
+width="1200" 
+height="500" 
+viewBox="0 0 1200 500" 
+fill="none" 
+xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1200" height="500" fill="#000"/>
+
+
+<!-- GRID -->
+
+<g opacity="0.08" stroke="white">
+
+<path d="M0 100H1200"/>
+<path d="M0 200H1200"/>
+<path d="M0 300H1200"/>
+<path d="M0 400H1200"/>
+
+<path d="M200 0V500"/>
+<path d="M400 0V500"/>
+<path d="M600 0V500"/>
+<path d="M800 0V500"/>
+<path d="M1000 0V500"/>
+
+</g>
+
+
+<!-- LOGO Z -->
+
+<g 
+stroke="white"
+stroke-width="18"
+stroke-linecap="square"
+stroke-linejoin="miter">
+
+
+<path
+id="z-logo"
+d="
+M420 160
+H780
+L420 340
+H780
+"
+stroke-dasharray="1200"
+stroke-dashoffset="1200">
+
+
+<animate
+attributeName="stroke-dashoffset"
+from="1200"
+to="0"
+dur="2s"
+fill="freeze"/>
+
+
+</path>
+
+
+<path
+d="
+M560 250
+L640 160
+"
+opacity="0">
+
+
+<animate
+attributeName="opacity"
+from="0"
+to="1"
+begin="1.5s"
+dur="0.5s"
+fill="freeze"/>
+
+</path>
+
+
+</g>
+
+
+
+<!-- GLOW -->
+
+<text
+x="600"
+y="420"
+fill="white"
+font-family="Arial, Helvetica, sans-serif"
+font-size="42"
+font-weight="900"
+letter-spacing="18"
+text-anchor="middle"
+opacity="0">
+
+ZURRI LABS
+
+
+<animate
+attributeName="opacity"
+from="0"
+to="1"
+begin="2s"
+dur="1s"
+fill="freeze"/>
+
+</text>
+
+
+
+<text
+x="600"
+y="465"
+fill="rgba(255,255,255,0.4)"
+font-family="Arial, Helvetica, sans-serif"
+font-size="14"
+letter-spacing="8"
+text-anchor="middle"
+opacity="0">
+
+BUILDING DIGITAL EXPERIENCES
+
+
+<animate
+attributeName="opacity"
+from="0"
+to="1"
+begin="2.5s"
+dur="1s"
+fill="freeze"/>
+
+</text>
+
+
+</svg>
