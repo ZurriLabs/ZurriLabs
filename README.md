@@ -1,16 +1,52 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**ZurriLabs/ZurriLabs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="./profile-banner.svg" width="100%"/>
 
-Here are some ideas to get you started:
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## ABOUT
+
+Zurri Labs is a digital studio focused on creating premium digital experiences.
+
+We build high-performance websites, e-commerce platforms and custom software.
+
+
+---
+
+## SERVICES
+
+01 — Web Development
+
+02 — E-commerce
+
+03 — Custom Software
+
+04 — UI / UX Design
+
+
+---
+
+## TECHNOLOGY
+
+[icons]
+
+
+---
+
+## CURRENTLY
+
+Building digital products.
+Growing Zurri Labs.
+Creating experiences that matter.
+
+
+---
+
+## CONTACT
+
+Website
+
+Instagram
+
+LinkedIn
