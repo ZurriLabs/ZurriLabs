@@ -1,4 +1,9 @@
 <div align="center">
+<div align="center">
+
+<img src="./assets/logo-animation.svg" width="100%">
+
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=000000&text=ZURRI%20LABS&fontColor=ffffff&fontSize=58&animation=fadeIn"/>
 
