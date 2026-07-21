@@ -1,4 +1,13 @@
+<div align="center">
 
+<img src="./assets/logo-animation.svg" width="100%">
+
+</div>
+
+
+## ABOUT
+
+Zurri Labs is a digital studio...
 ## ABOUT
 
 Zurri Labs is a digital studio...
