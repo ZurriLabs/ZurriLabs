@@ -1,16 +1,35 @@
-<svg 
-width="1200" 
-height="500" 
-viewBox="0 0 1200 500" 
-fill="none" 
-xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
 
-<rect width="1200" height="500" fill="#000"/>
+<defs>
+
+<!-- Glow -->
+<filter id="glow">
+<feGaussianBlur stdDeviation="8" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
 
 
-<!-- GRID -->
+<!-- Gradient -->
+<linearGradient id="whiteGradient">
+<stop offset="0%" stop-color="#ffffff"/>
+<stop offset="100%" stop-color="#777777"/>
+</linearGradient>
 
-<g opacity="0.08" stroke="white">
+
+</defs>
+
+
+<!-- BACKGROUND -->
+
+<rect width="1200" height="500" fill="#000000"/>
+
+
+<!-- TECH GRID -->
+
+<g opacity="0.06" stroke="#ffffff">
 
 <path d="M0 100H1200"/>
 <path d="M0 200H1200"/>
@@ -26,52 +45,35 @@ xmlns="http://www.w3.org/2000/svg">
 </g>
 
 
-<!-- LOGO Z -->
+<!-- LOGO -->
 
-<g 
-stroke="white"
-stroke-width="18"
-stroke-linecap="square"
-stroke-linejoin="miter">
+<g
+fill="none"
+stroke="url(#whiteGradient)"
+stroke-width="14"
+stroke-linecap="round"
+stroke-linejoin="round"
+filter="url(#glow)"
+>
 
 
 <path
-id="z-logo"
+id="logo"
 d="
-M420 160
-H780
-L420 340
-H780
+M430 150
+H770
+L430 350
+H770
 "
-stroke-dasharray="1200"
-stroke-dashoffset="1200">
+stroke-dasharray="1000"
+stroke-dashoffset="1000">
 
 
 <animate
 attributeName="stroke-dashoffset"
-from="1200"
+from="1000"
 to="0"
 dur="2s"
-fill="freeze"/>
-
-
-</path>
-
-
-<path
-d="
-M560 250
-L640 160
-"
-opacity="0">
-
-
-<animate
-attributeName="opacity"
-from="0"
-to="1"
-begin="1.5s"
-dur="0.5s"
 fill="freeze"/>
 
 </path>
@@ -81,16 +83,16 @@ fill="freeze"/>
 
 
 
-<!-- GLOW -->
+<!-- TITLE -->
 
 <text
 x="600"
 y="420"
 fill="white"
-font-family="Arial, Helvetica, sans-serif"
 font-size="42"
+font-family="Arial, Helvetica, sans-serif"
 font-weight="900"
-letter-spacing="18"
+letter-spacing="14"
 text-anchor="middle"
 opacity="0">
 
@@ -109,17 +111,19 @@ fill="freeze"/>
 
 
 
+<!-- SUBTITLE -->
+
 <text
 x="600"
 y="465"
-fill="rgba(255,255,255,0.4)"
-font-family="Arial, Helvetica, sans-serif"
+fill="#777"
 font-size="14"
-letter-spacing="8"
+font-family="Arial, Helvetica, sans-serif"
+letter-spacing="7"
 text-anchor="middle"
 opacity="0">
 
-BUILDING DIGITAL EXPERIENCES
+DIGITAL EXPERIENCES
 
 
 <animate
@@ -129,6 +133,7 @@ to="1"
 begin="2.5s"
 dur="1s"
 fill="freeze"/>
+
 
 </text>
 
