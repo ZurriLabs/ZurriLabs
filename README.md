@@ -4,10 +4,6 @@
 
 </div>
 
-
-## ABOUT
-
-Zurri Labs is a digital studio...
 ## ABOUT
 
 Zurri Labs is a digital studio...
