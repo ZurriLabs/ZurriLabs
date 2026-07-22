@@ -1,63 +1,69 @@
 <div align="center">
 
-<img src="assets/logo-animation.svg" width="100%">
+# ZURRI LABS
 
-</div>
+### Building modern digital experiences.
 
-## ABOUT
-
-Zurri Labs is a digital studio...
-
-# Building Premium Digital Experiences
-
-Modern websites • E-commerce • Custom Software
+Premium websites, e-commerce platforms and custom software engineered for speed, scalability and exceptional user experience.
 
 </div>
 
 ---
 
-## ⚡ About
+## About
 
-Zurri Labs is a digital studio focused on creating fast, modern and scalable digital products.
+Zurri Labs is a digital studio focused on creating high-performance websites and custom software for businesses that want to grow online.
 
-We build websites that not only look premium, but also deliver real business results.
+We combine modern technologies, clean design and strategic thinking to build products that look premium and perform even better.
 
 ---
 
-## 🚀 Services
+## Services
 
-- Premium Websites
+- Modern Websites
 - Landing Pages
-- E-commerce
+- E-commerce Development
 - Custom Software
 - UI / UX Design
 - SEO Optimization
+- Performance Optimization
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-<p align="center">
+<p align="left">
+
 <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,nodejs,postgres,prisma,git,github,vscode" />
+
 </p>
 
 ---
 
-## 📈 Current Focus
+## Current Focus
 
+- Building premium digital experiences
 - Growing Zurri Labs
-- Building premium websites
-- Creating scalable software
-- Expanding our portfolio
+- Creating scalable web applications
+- Learning and improving every day
+
+---
+
+## Contact
+
+Website  
+Coming soon...
+
+Email  
+zurrilabs@gmail.com
+
+Instagram  
+@zurrilabs.ar
 
 ---
 
 <div align="center">
 
-### Connect
-
-Instagram • LinkedIn • Website
-
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=000000"/>
+Built with ❤️ by Zurri Labs.
 
 </div>
